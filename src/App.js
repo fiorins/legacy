@@ -90,7 +90,7 @@ class App extends Component {
           </button>
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
             <FaGithub />
-            <a href="https://facebook.com" className="pl-2">GitHub</a>
+            <a href="https://github.com/fiorins" className="pl-2">GitHub</a>
           </button>
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
             <FaYoutube />
