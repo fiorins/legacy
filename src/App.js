@@ -6,19 +6,23 @@ import Carta from "./components/carta";
 //import Repo from "./components/repo";
 import Skill from "./components/skill";
 
+import { FaGithub, FaYoutube, } from 'react-icons/fa';
+import { GrMail, } from 'react-icons/gr';
+
 import javascript from './img/icons/icons8-javascript.svg';
 import html5 from './img/icons/icons8-html-5.svg';
 import css3 from './img/icons/icons8-css3.svg';
 import java from './img/icons/icons8-java.svg';
 import python from './img/icons/icons8-python.svg';
 import wordpress from './img/icons/icons8-wordpress.svg';
+import matlab from './img/icons/icons8-matlab.svg';
 import finalcutpro from './img/icons/icons8-final-cut-pro-x.svg';
 import photoshop from './img/icons/icons8-adobe-photoshop.svg';
 import illustrator from './img/icons/icons8-adobe-illustrator.svg';
 
 
 class App extends Component {
-  state = {  /* il mio state l'ho chiamato repos */
+  state = {
     repos: [
       { id: 0, name: "fiorins.github.io" },
       { id: 1, name: "onepiece" },
@@ -35,11 +39,11 @@ class App extends Component {
       { id: 3, name: "Java", path: java },
       { id: 4, name: "Python", path: python },
       { id: 5, name: "Wordpress", path: wordpress },
-
+      { id: 6, name: "Matlab", path: matlab },
       //videoediting
-      { id: 6, name: "FinalCut Pro", path: finalcutpro },
-      { id: 7, name: "Photoshop", path: photoshop },
-      { id: 8, name: "Illustrator", path: illustrator },
+      { id: 7, name: "FinalCut Pro", path: finalcutpro },
+      { id: 8, name: "Photoshop", path: photoshop },
+      { id: 9, name: "Illustrator", path: illustrator },
     ]
   };
 
@@ -66,7 +70,7 @@ class App extends Component {
         */}
 
         <section id="technologies" className="pt-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="fw-bold text-2xl mb-8">Technologies I know:</h2>
+          <h2 className="font-bold text-2xl mb-8">Technologies I know:</h2>
           <div className="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3">
             {this.state.skills.map(skill => (
               <Skill
@@ -79,8 +83,19 @@ class App extends Component {
         </section>
 
         <section id="contacts" className="py-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="fw-bold text-2xl mb-8">Contact me:</h2>
-          <a href="mailto:davidefiorini@outlook.com">davidefiorini@outlook.com</a>
+          <h2 className="font-bold text-2xl mb-8">You can find me on:</h2>
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+            <GrMail />
+            <a href="mailto:davidefiorini@outlook.com" className="pl-2">E-Mail</a>
+          </button>
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+            <FaGithub />
+            <a href="https://github.com/fiorins" className="pl-2">GitHub</a>
+          </button>
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+            <FaYoutube />
+            <a href="https://www.youtube.com/davidefiorini96" className="pl-2">Youtube</a>
+          </button>
         </section>
 
       </div>

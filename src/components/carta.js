@@ -11,7 +11,7 @@ function Carta() {
             <div>
                 <h1 className="text-gray-800 text-4xl font-semibold">Hey there! 👋</h1>
                 <span className="flex mt-2 text-gray-700 text-base md:text-3xl">
-                    {"I'm Davide, I like\u00A0"}
+                    {"I'm Davide, I love\u00A0"}
                     <Typewriter
                         options={{
                             strings: [
@@ -21,6 +21,7 @@ function Carta() {
                                 "to play football",
                                 "reading comics",
                                 "nature",
+                                "open source",
                             ],
                             autoStart: true,
                             loop: true
