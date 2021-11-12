@@ -1,3 +1,8 @@
+import bandiera from '../img/flag-it.svg';
+import flag from '../img//italian-flag.svg';
+
+import { ReactSVG } from 'react-svg'
+
 function Navbar() {
     return (
         <>
@@ -10,17 +15,23 @@ function Navbar() {
 
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center" >
                         <ul className="flex flex-row list-none ml-auto">
-                            <li className="nav-item">
-                                <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75" href="www.facebook.com" >
-                                    <i className="fab fa-facebook-square text-lg leading-lg opacity-75"></i>
-                                    <span className="ml-2">ENG</span>
-                                </a>
+                            <li className="nav-item pl-4">
+                                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <svg className="rounded" xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 640 480">
+                                        <g fill-rule="evenodd" stroke-width="1pt">
+                                            <path fill="#fff" d="M0 0h640v479.997H0z" />
+                                            <path fill="#009246" d="M0 0h213.331v479.997H0z" />
+                                            <path fill="#ce2b37" d="M426.663 0h213.331v479.997H426.663z" />
+                                        </g>
+                                    </svg>
+                                    <span className="pl-2">ITA</span>
+                                </button>
                             </li>
-                            <li className="nav-item">
-                                <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75" href="www.facebook.com">
-                                    <i className="fab fa-twitter text-lg leading-lg opacity-75"></i>
-                                    <span className="ml-2">Dark</span>
-                                </a>
+                            <li className="nav-item pl-4">
+                                <button className=" bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <i className="fas fa-moon text-lg leading-lg opacity-75"></i>
+                                    <span className="pl-2">Dark</span>
+                                </button>
                             </li>
                         </ul>
                     </nav>
