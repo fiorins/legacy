@@ -1,6 +1,4 @@
 
-import { ReactSVG } from 'react-svg'
-
 function Navbar() {
     return (
         <>
