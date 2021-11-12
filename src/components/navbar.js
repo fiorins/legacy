@@ -1,5 +1,3 @@
-import bandiera from '../img/flag-it.svg';
-import flag from '../img//italian-flag.svg';
 
 import { ReactSVG } from 'react-svg'
 
