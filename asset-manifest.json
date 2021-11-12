@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3dea7c4.chunk.css",
-    "main.js": "/static/js/main.ad27dac7.chunk.js",
-    "main.js.map": "/static/js/main.ad27dac7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.81a68d98.js",
-    "runtime-main.js.map": "/static/js/runtime-main.81a68d98.js.map",
-    "static/js/2.eac9385b.chunk.js": "/static/js/2.eac9385b.chunk.js",
-    "static/js/2.eac9385b.chunk.js.map": "/static/js/2.eac9385b.chunk.js.map",
-    "static/js/3.96e128a7.chunk.js": "/static/js/3.96e128a7.chunk.js",
-    "static/js/3.96e128a7.chunk.js.map": "/static/js/3.96e128a7.chunk.js.map",
+    "main.css": "/static/css/main.40e0d364.chunk.css",
+    "main.js": "/static/js/main.a0eb3ec5.chunk.js",
+    "main.js.map": "/static/js/main.a0eb3ec5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f215870b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f215870b.js.map",
+    "static/js/2.52e318de.chunk.js": "/static/js/2.52e318de.chunk.js",
+    "static/js/2.52e318de.chunk.js.map": "/static/js/2.52e318de.chunk.js.map",
+    "static/js/3.6ac2e1ec.chunk.js": "/static/js/3.6ac2e1ec.chunk.js",
+    "static/js/3.6ac2e1ec.chunk.js.map": "/static/js/3.6ac2e1ec.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a3dea7c4.chunk.css.map": "/static/css/main.a3dea7c4.chunk.css.map",
-    "static/js/2.eac9385b.chunk.js.LICENSE.txt": "/static/js/2.eac9385b.chunk.js.LICENSE.txt",
+    "static/css/main.40e0d364.chunk.css.map": "/static/css/main.40e0d364.chunk.css.map",
+    "static/js/2.52e318de.chunk.js.LICENSE.txt": "/static/js/2.52e318de.chunk.js.LICENSE.txt",
     "static/media/foto-profilo-3.2f13c928.png": "/static/media/foto-profilo-3.2f13c928.png",
     "static/media/icons8-adobe-illustrator.8aa316ba.svg": "/static/media/icons8-adobe-illustrator.8aa316ba.svg",
     "static/media/icons8-adobe-photoshop.42d1a2d8.svg": "/static/media/icons8-adobe-photoshop.42d1a2d8.svg",
@@ -20,13 +20,14 @@
     "static/media/icons8-html-5.c1bb84e0.svg": "/static/media/icons8-html-5.c1bb84e0.svg",
     "static/media/icons8-java.5386b56c.svg": "/static/media/icons8-java.5386b56c.svg",
     "static/media/icons8-javascript.081325c6.svg": "/static/media/icons8-javascript.081325c6.svg",
+    "static/media/icons8-matlab.27c7151a.svg": "/static/media/icons8-matlab.27c7151a.svg",
     "static/media/icons8-python.026a6268.svg": "/static/media/icons8-python.026a6268.svg",
     "static/media/icons8-wordpress.de444993.svg": "/static/media/icons8-wordpress.de444993.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81a68d98.js",
-    "static/js/2.eac9385b.chunk.js",
-    "static/css/main.a3dea7c4.chunk.css",
-    "static/js/main.ad27dac7.chunk.js"
+    "static/js/runtime-main.f215870b.js",
+    "static/js/2.52e318de.chunk.js",
+    "static/css/main.40e0d364.chunk.css",
+    "static/js/main.a0eb3ec5.chunk.js"
   ]
 }
