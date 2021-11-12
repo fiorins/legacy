@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1>Testing GITHUB Pages with REACT ad GitHub Actions</h1>
+          <h1 className="text-red-600">Testing GITHUB Pages with REACT ad GitHub Actions</h1>
         </p>
         <a
           className="App-link"
