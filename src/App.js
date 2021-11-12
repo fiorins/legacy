@@ -82,8 +82,8 @@ class App extends Component {
           </div>
         </section>
 
-        <section id="contacts" className="py-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="font-bold text-2xl mb-8">You can find me on:</h2>
+        <section id="contacts" className="pt-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+          <h2 className="font-bold text-2xl mb-4">You can find me on:</h2>
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
             <GrMail />
             <a href="mailto:davidefiorini@outlook.com" className="pl-2">E-Mail</a>

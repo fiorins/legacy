@@ -16,7 +16,7 @@ function Carta() {
                         options={{
                             strings: [
                                 "to play chess",
-                                "listening to music",
+                                "enjoy music",
                                 "programming",
                                 "to play football",
                                 "reading comics",
