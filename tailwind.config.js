@@ -10,12 +10,14 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        'righteous': ['righteous', 'cursive']  //questa è la rule e va messa la stessa che si trova su google fonts
+        'righteous': ['Righteous', 'cursive'],  //questa è la rule e va messa la stessa che si trova su google fonts
+        'firacode': ['Fira Code', 'monospace'],
+        'sourcecode': ['Source Code Pro', 'monospace'],
       },
 
       colors: {
-        primary: '#FF7890', //qui ho settato i miei colori 
-        secondary: "#FABB55", 
+        primario: '#FF7890', //qui ho settato i miei colori 
+        secondario: "#FABB55", 
         scuro1: "#1F1C2E",
         scuro2: "#343E59",
         biancoperla: "#F3F6FD",

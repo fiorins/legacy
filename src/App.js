@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Carta from "./components/carta";
 //import Repo from "./components/repo";
 import Skill from "./components/skill";
+import Footer from "./components/footer";
 
 import { FaGithub, FaYoutube, } from 'react-icons/fa';
 import { GrMail, } from 'react-icons/gr';
@@ -22,7 +23,7 @@ import finalcutpro from './img/icons/icons8-final-cut-pro-x.svg';
 
 
 class App extends Component {
-  
+
   state = {
     repos: [
       { id: 0, name: "fiorins.github.io" },
@@ -40,7 +41,7 @@ class App extends Component {
       { id: 3, name: "Java", path: java },
       { id: 4, name: "Python", path: python },
       { id: 5, name: "Wordpress", path: wordpress },
-      { id: 6, name: "Matlab", path: matlab },
+      { id: 6, name: "MatLab", path: matlab },
       //videoediting
       { id: 7, name: "Photoshop", path: photoshop },
       { id: 8, name: "Illustrator", path: illustrator },
@@ -70,7 +71,7 @@ class App extends Component {
         </section>
         */}
 
-        <section id="technologies" className="pt-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+        <section id="technologies" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
           <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">Technologies I know:</h2>
           <div className="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3">
             {this.state.skills.map(skill => (
@@ -83,7 +84,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section id="contacts" className="pt-16 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+        <section id="contacts" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
           <h2 className="font-bold text-2xl mb-4 dark:text-biancoperla">You can find me on:</h2>
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
             <GrMail />
@@ -98,6 +99,10 @@ class App extends Component {
             <a href="https://www.youtube.com/davidefiorini96" className="pl-2">YouTube</a>
           </button>
         </section>
+
+
+
+        <Footer />
 
       </div>
     );

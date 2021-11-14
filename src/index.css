@@ -2,5 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-/*import del font da google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/*import dei font da google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Righteous&family=Source+Code+Pro:wght@600&display=swap');
