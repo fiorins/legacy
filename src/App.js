@@ -40,7 +40,7 @@ class App extends Component {
       { id: 2, name: "CSS3", path: css3 },
       { id: 3, name: "Java", path: java },
       { id: 4, name: "Python", path: python },
-      { id: 5, name: "Wordpress", path: wordpress },
+      { id: 5, name: "WordPress", path: wordpress },
       { id: 6, name: "MatLab", path: matlab },
       //videoediting
       { id: 7, name: "Photoshop", path: photoshop },

@@ -11,7 +11,7 @@ function Carta() {
                 </div>
                 <div>
                     <h1 className="text-gray-800 text-4xl font-semibold">Hey there! 👋</h1>
-                    <span className="flex mt-2 text-gray-700 text-base md:text-3xl">
+                    <span className="flex mt-2 text-gray-700 text-base md:text-2xl lg:text-3xl">
                         {"I'm Davide, I love\u00A0"}
                         <Typewriter
                             options={{
