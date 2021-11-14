@@ -1,1 +1,1 @@
-Create with React & TailWindCSS
+Made with React & TailWindCSS

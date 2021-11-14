@@ -2,7 +2,6 @@ import React, { Component } from "react";
 //import Logo from 'react-svgporn';
 import { ReactSVG } from 'react-svg'
 
-
 class Skill extends Component {
     render() {
         return (
