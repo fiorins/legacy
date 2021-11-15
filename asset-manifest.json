@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.05c1b17d.chunk.css",
-    "main.js": "/static/js/main.fb1d0fee.chunk.js",
-    "main.js.map": "/static/js/main.fb1d0fee.chunk.js.map",
+    "main.css": "/static/css/main.d3999852.chunk.css",
+    "main.js": "/static/js/main.fdb95f1b.chunk.js",
+    "main.js.map": "/static/js/main.fdb95f1b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa50821c.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa50821c.js.map",
     "static/js/2.9bde3166.chunk.js": "/static/js/2.9bde3166.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.097a0566.chunk.js": "/static/js/3.097a0566.chunk.js",
     "static/js/3.097a0566.chunk.js.map": "/static/js/3.097a0566.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.05c1b17d.chunk.css.map": "/static/css/main.05c1b17d.chunk.css.map",
+    "static/css/main.d3999852.chunk.css.map": "/static/css/main.d3999852.chunk.css.map",
     "static/js/2.9bde3166.chunk.js.LICENSE.txt": "/static/js/2.9bde3166.chunk.js.LICENSE.txt",
     "static/media/foto-profilo-3.2f13c928.png": "/static/media/foto-profilo-3.2f13c928.png",
     "static/media/icons8-adobe-illustrator.8aa316ba.svg": "/static/media/icons8-adobe-illustrator.8aa316ba.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa50821c.js",
     "static/js/2.9bde3166.chunk.js",
-    "static/css/main.05c1b17d.chunk.css",
-    "static/js/main.fb1d0fee.chunk.js"
+    "static/css/main.d3999852.chunk.css",
+    "static/js/main.fdb95f1b.chunk.js"
   ]
 }
