@@ -51,7 +51,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='container p-5 dark:bg-scuro2'>
+      <div className=' p-5 dark:bg-scuro2'>
         <Navbar />
         <Carta />
 
