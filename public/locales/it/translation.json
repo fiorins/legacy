@@ -1,0 +1,17 @@
+{
+    "saluto": "Ehilà!",
+    "nome": "Sono Davide, ",
+    "presentazione": "amo\u00A0",
+    "interessi": {
+        "frase1": "giocare a scacchi",
+        "frase2": "ascoltare musica",
+        "frase3": "programmare",
+        "frase4": "giocare a calcio",
+        "frase5": "leggere fumetti",
+        "frase6": "stare in natura",
+        "frase7": "l'open source",
+        "frase8": "tante altre belle cose"
+    },
+    "tecnologie": "Tecnologie che conosco:",
+    "contatti": "Possiamo sentirci su:"
+}

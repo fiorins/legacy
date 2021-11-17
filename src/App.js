@@ -1,6 +1,8 @@
 
 import './App.css';
 import { Component } from "react";
+import { withTranslation } from 'react-i18next';
+
 import Navbar from "./components/navbar";
 import Carta from "./components/carta";
 //import Repo from "./components/repo";
@@ -20,7 +22,6 @@ import matlab from './img/icons/icons8-matlab.svg';
 import photoshop from './img/icons/icons8-adobe-photoshop.svg';
 import illustrator from './img/icons/icons8-adobe-illustrator.svg';
 import finalcutpro from './img/icons/icons8-final-cut-pro-x.svg';
-
 
 class App extends Component {
 
@@ -50,8 +51,9 @@ class App extends Component {
   };
 
   render() {
+    
     return (
-      <div className=' p-5 dark:bg-scuro2'>
+      <div className='p-5 dark:bg-scuro2'>
         <Navbar />
         <Carta />
 
@@ -72,7 +74,7 @@ class App extends Component {
         */}
 
         <section id="technologies" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">Technologies I know:</h2>
+          <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">{this.props.t('tecnologie')}</h2>
           <div className="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3">
             {this.state.skills.map(skill => (
               <Skill
@@ -85,7 +87,7 @@ class App extends Component {
         </section>
 
         <section id="contacts" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="font-bold text-2xl mb-4 dark:text-biancoperla">You can find me on:</h2>
+          <h2 className="font-bold text-2xl mb-4 dark:text-biancoperla">{this.props.t('contatti')}</h2>
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
             <GrMail />
             <a href="mailto:davidefiorini@outlook.com" className="pl-2">E-Mail</a>
@@ -100,8 +102,6 @@ class App extends Component {
           </button>
         </section>
 
-
-
         <Footer />
 
       </div>
@@ -109,4 +109,5 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withTranslation()(App);
+

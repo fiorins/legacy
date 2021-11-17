@@ -1,6 +1,7 @@
 import React from "react";
 
 import DarkModeToggle from "./DarkModeToggle";
+import Switcher from "./switcher"
 
 function Navbar() {
     return (
@@ -9,17 +10,7 @@ function Navbar() {
 
             <nav className="flex-row space-x-8 flex items-center text-base">
                 <DarkModeToggle />
-
-                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded flex items-center space-x-2">
-                    <svg className="rounded" xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 640 480">
-                        <g fillRule="evenodd" strokeWidth="1pt">
-                            <path fill="#fff" d="M0 0h640v479.997H0z" />
-                            <path fill="#009246" d="M0 0h213.331v479.997H0z" />
-                            <path fill="#ce2b37" d="M426.663 0h213.331v479.997H426.663z" />
-                        </g>
-                    </svg>
-                    <span>ITA</span>
-                </button>
+                <Switcher />
             </nav>
         </header>
 

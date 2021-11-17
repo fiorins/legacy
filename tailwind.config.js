@@ -9,7 +9,7 @@ module.exports = {
     },
 
     screens: {  
-      'xs': '375px',  //ho aggiunto quest'altro breakpoint per schermi piu piccoli di iPhoneX
+      'xs': '375px',  //added this breakpoint for smaller screens than iPhone X
       // => @media (max-width: 375px) { ... }
 
       'sm': '640px',

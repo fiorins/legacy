@@ -1,0 +1,17 @@
+{
+    "saluto": "Hey there!",
+    "nome": "I'm Davide, ",
+    "presentazione": "I love\u00A0",
+    "interessi": {
+        "frase1": "to play chess",
+        "frase2": "enjoy music",
+        "frase3": "programming",
+        "frase4": "to play football",
+        "frase5": "reading comics",
+        "frase6": "stay in nature",
+        "frase7": "open source",
+        "frase8": "so many other things"
+    },
+    "tecnologie": "Technologies I know:",
+    "contatti": "You can find me on:"
+}
