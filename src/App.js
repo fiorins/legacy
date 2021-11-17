@@ -51,15 +51,27 @@ class App extends Component {
   };
 
   render() {
-    
+
     return (
-      <div className='p-5 dark:bg-scuro2'>
+      <div className='p-5 bg-biancoperla dark:bg-scuro2'>
         <Navbar />
         <Carta />
 
-        {/* c'e un bug nel modulo che non riconosce le emoji, per ora tolgo questa funzione
+        <section id="technologies" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+          <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">{this.props.t('tecnologie')}</h2>
+          <div className="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3">
+            {this.state.skills.map(skill => (
+              <Skill
+                key={skill.id}
+                name={skill.name}
+                path={skill.path}
+              />
+            ))}
+          </div>
+        </section>
+
+        {/* questo componente ha un bug e non riconosce le emoji, per ora non lo uso
         <section id="repositories" className="mt-4 mx-5">
-          <h2 className="fw-bold">My GitHub repositories:</h2>
           <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
           /* mappa la lista 
             {this.state.repos.map(card => (
@@ -73,16 +85,11 @@ class App extends Component {
         </section>
         */}
 
-        <section id="technologies" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-          <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">{this.props.t('tecnologie')}</h2>
-          <div className="mt-4 grid gap-2 grid-cols-2 sm:grid-cols-3">
-            {this.state.skills.map(skill => (
-              <Skill
-                key={skill.id}
-                name={skill.name}
-                path={skill.path}
-              />
-            ))}
+        <section id="repos" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+          <h2 className="font-bold text-2xl mb-8 dark:text-biancoperla">{this.props.t('repositories')}</h2>
+          <div className="mt-4 grid gap-2 sm:grid-cols-2">
+            <div className="repo-card" data-repo="fiorins/fiorins.github.io"></div>
+            <div className="repo-card" data-repo="fiorins/onepiece"></div>
           </div>
         </section>
 

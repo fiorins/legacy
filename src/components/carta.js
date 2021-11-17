@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import './carta.css';
 
 function Carta() {
-    const { t } = useTranslation(); //const { t, i18n } = useTranslation(); assegna alle costanti t e i18n quella funzione 
+    const { t } = useTranslation(); //const { t, i18n } = funzione(); assegna alle costanti t e i18n quella funzione 
 
     return (
         <section className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
@@ -39,7 +39,6 @@ function Carta() {
                             />
                         </span>
                     </span>
-
                 </div>
             </div>
         </section >
