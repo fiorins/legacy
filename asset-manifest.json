@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3999852.chunk.css",
-    "main.js": "/static/js/main.fdb95f1b.chunk.js",
-    "main.js.map": "/static/js/main.fdb95f1b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fa50821c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fa50821c.js.map",
-    "static/js/2.9bde3166.chunk.js": "/static/js/2.9bde3166.chunk.js",
-    "static/js/2.9bde3166.chunk.js.map": "/static/js/2.9bde3166.chunk.js.map",
-    "static/js/3.097a0566.chunk.js": "/static/js/3.097a0566.chunk.js",
-    "static/js/3.097a0566.chunk.js.map": "/static/js/3.097a0566.chunk.js.map",
+    "main.css": "/static/css/main.65cb92f0.chunk.css",
+    "main.js": "/static/js/main.e71c7b75.chunk.js",
+    "main.js.map": "/static/js/main.e71c7b75.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c04e0947.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c04e0947.js.map",
+    "static/js/2.bf2bd87d.chunk.js": "/static/js/2.bf2bd87d.chunk.js",
+    "static/js/2.bf2bd87d.chunk.js.map": "/static/js/2.bf2bd87d.chunk.js.map",
+    "static/js/3.197685b4.chunk.js": "/static/js/3.197685b4.chunk.js",
+    "static/js/3.197685b4.chunk.js.map": "/static/js/3.197685b4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d3999852.chunk.css.map": "/static/css/main.d3999852.chunk.css.map",
-    "static/js/2.9bde3166.chunk.js.LICENSE.txt": "/static/js/2.9bde3166.chunk.js.LICENSE.txt",
+    "static/css/main.65cb92f0.chunk.css.map": "/static/css/main.65cb92f0.chunk.css.map",
+    "static/js/2.bf2bd87d.chunk.js.LICENSE.txt": "/static/js/2.bf2bd87d.chunk.js.LICENSE.txt",
     "static/media/foto-profilo-3.2f13c928.png": "/static/media/foto-profilo-3.2f13c928.png",
+    "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs",
     "static/media/icons8-adobe-illustrator.8aa316ba.svg": "/static/media/icons8-adobe-illustrator.8aa316ba.svg",
     "static/media/icons8-adobe-photoshop.42d1a2d8.svg": "/static/media/icons8-adobe-photoshop.42d1a2d8.svg",
     "static/media/icons8-css3.3ec32022.svg": "/static/media/icons8-css3.3ec32022.svg",
@@ -25,9 +26,9 @@
     "static/media/icons8-wordpress.de444993.svg": "/static/media/icons8-wordpress.de444993.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa50821c.js",
-    "static/js/2.9bde3166.chunk.js",
-    "static/css/main.d3999852.chunk.css",
-    "static/js/main.fdb95f1b.chunk.js"
+    "static/js/runtime-main.c04e0947.js",
+    "static/js/2.bf2bd87d.chunk.js",
+    "static/css/main.65cb92f0.chunk.css",
+    "static/js/main.e71c7b75.chunk.js"
   ]
 }
