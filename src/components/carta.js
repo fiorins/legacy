@@ -15,12 +15,19 @@ function Carta() {
                 </div>
                 <div className="font-sourcecode">
                     <h1 className="text-gray-800 text-3xl sm:text-4xl font-bold">{t('saluto')} 👋</h1>
-                    <span className="flex flex-col mt-2 text-gray-700 xs:text-lg sm:text-xl md:text-2xl lg:text-2xl">
-                        <span>
+                    <div className="flex flex-col mt-2 text-gray-700 xs:text-lg sm:text-xl md:text-2xl lg:text-2xl">
+
+                        <div className="sm:inline">
                             {t('nome')}
-                            {t('presentazione')}
-                        </span>
-                        <span>
+                            <span className="sm:hidden">
+                                {t('presentazione')}
+                            </span>
+                        </div>
+
+                        <div className="sm:flex">
+                            <span className="hidden sm:inline">
+                                {t('presentazione')}
+                            </span>
                             <Typewriter
                                 options={{
                                     strings: [
@@ -37,8 +44,9 @@ function Carta() {
                                     loop: true,
                                 }}
                             />
-                        </span>
-                    </span>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section >

@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="border-t-2 border-primario pt-8 mt-8 mx-auto justify-around flex items-center w-11/12 sm:w-9/12 md:w-7/12 dark:text-gray-300">
             <p>
-                <span className="font-righteous">©</span>
+                <span className="font-righteous">©&nbsp;</span>
                 <span className="font-sourcecode">2021</span>
             </p>
 
