@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 
 const Ita = () =>
    <>
-      <div className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded flex items-center space-x-2">
          <svg className="rounded" xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 640 480">
             <g fillRule="evenodd" strokeWidth="1pt">
                <path fill="#fff" d="M0 0h640v479.997H0z" />
@@ -13,11 +12,9 @@ const Ita = () =>
             </g>
          </svg>
          <span className="font-sourcecode font-bold">ITA</span>
-      </div>
    </>;
 const Eng = () =>
    <>
-      <div className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded flex items-center space-x-2">
          <svg className="rounded" xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 640 480">
             <defs>
                <clipPath id="a">
@@ -34,7 +31,6 @@ const Eng = () =>
             </g>
          </svg>
          <span className="font-sourcecode font-bold">ENG</span>
-      </div>
    </>;
 
 function useToggle(initialValue = false) {
@@ -60,11 +56,11 @@ const Switcher = () => {
       <>
          <button onClick={toggleIsOn}>
             {isOn ? (
-               <div onClick={() => changeLanguage('en')}>
+               <div onClick={() => changeLanguage('en')} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-md flex items-center space-x-2">
                   <Eng />
                </div>
             ) : (
-               <div onClick={() => changeLanguage('it')}>
+               <div onClick={() => changeLanguage('it')} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-md flex items-center space-x-2">
                   <Ita />
                </div>
             )}

@@ -1,4 +1,4 @@
-import profilo from '../img/foto-profilo-3.png';
+import profilo from '../img/foto-profilo.png';
 import Typewriter from "typewriter-effect";
 import { useTranslation } from 'react-i18next';
 
@@ -9,7 +9,7 @@ function Carta() {
 
     return (
         <section className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
-            <div className="pt-4 pb-10 px-8 m-auto bg-primario shadow-lg rounded-lg">
+            <div className="pt-4 pb-10 px-8 m-auto bg-primario shadow-lg rounded-2xl">
                 <div className="flex justify-center md:justify-end -mt-16">
                     <img className="avatar w-28 h-28 object-cover rounded-full" src={profilo} alt="" />
                 </div>

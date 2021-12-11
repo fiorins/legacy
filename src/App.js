@@ -93,17 +93,23 @@ class App extends Component {
           </div>
         </section>
 
+        {/* sezione da implementare
+        <section id="spotify" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
+          <iframe title="playlist-spotify" className="rounded-2xl" src="https://open.spotify.com/embed/playlist/7BUgniqHal7s4Nrt7TgQVW?utm_source=generator" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </section>
+        */}
+
         <section id="contacts" className="py-8 m-auto w-11/12 sm:w-9/12 md:w-7/12">
           <h2 className="font-bold text-2xl mb-4 dark:text-biancoperla">{this.props.t('contatti')}</h2>
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded-md inline-flex items-center">
             <GrMail />
             <a href="mailto:davidefiorini@outlook.com" className="pl-2">E-Mail</a>
           </button>
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded-md inline-flex items-center">
             <FaGithub />
             <a href="https://github.com/fiorins" className="pl-2">GitHub</a>
           </button>
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded inline-flex items-center">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 mt-4 mr-4 rounded-md inline-flex items-center">
             <FaYoutube />
             <a href="https://www.youtube.com/davidefiorini96" className="pl-2">YouTube</a>
           </button>
@@ -111,7 +117,7 @@ class App extends Component {
 
         <Footer />
 
-      </div>
+      </div >
     );
   }
 }
