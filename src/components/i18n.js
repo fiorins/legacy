@@ -14,6 +14,9 @@ i18n
       order: ['queryString', 'cookie'],
       cache: ['cookie'],
     },
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json', // Specify your translation files folder
+    },
     interpolation: {
       escapeValue: false,
     },
