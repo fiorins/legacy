@@ -14,6 +14,10 @@ jobs:
         node-version: [15.x]
 
     steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15.x
       - name: Checkout
         uses: actions/checkout@v1
 
